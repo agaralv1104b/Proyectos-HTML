@@ -1,0 +1,44 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c9c3c3
+    
+}
+
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #c9c3c3
+}
+
+.inicio{
+    display:block;
+    align-items:center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+
+.inicio h1{
+    font-size: 3rem;
+    background-color: #c9c3c3;
+    margin: 3rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}

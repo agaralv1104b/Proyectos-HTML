@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vehiculos</title>
+    </head>
+    <body>
+        
+        <header>
+
+            <h1>Concesionario Garcia</h1>
+
+            <nav class="menu">
+
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./vehiculos.html">Vehiculos</a></li>
+                    <li><a href="./favorito.html">Favoritos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section class="catalogo">
+
+                <h2>Vehículos Disponibles</h2>
+
+                <p>Explora nuestra amplia gama de vehículos y encuentra el coche que se adapte a tu estilo y necesidades.</p>
+
+            </section>
+
+            <section class="filtro">
+                
+                <h3>Filtrar por Marca</h3>
+
+                <form action="marca">Marca:
+                    <select name="marca" id="marca">
+                        <option value="Toyota">Toyota</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Nissan">Nissan</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="Mercedes-Benz">Mercedes-Benz</option>
+                        <option value="Hyundai">Hyundai</option>
+                        <option value="Seat">Seat</option>
+                        <option value="Renault">Renault</option>
+                        <option value="Opel">Opel</option>
+                    </select>
+
+                    <label for="Modelo">Modelo:</label>
+                    <input type="text" name="modelo" id="modelo">
+
+
+                    <label for="combustible">Combustible:</label>
+
+                    <select name="combustible" id="combustible">
+                        <option value="Gasolina">Gasolina</option>
+                        <option value="Diésel">Diésel</option>
+                        <option value="Eléctrico">Eléctrico</option>
+                        <option value="Híbrido">Híbrido</option>
+                    </select>
+
+
+                    <label for="cambio">Transmision:</label>
+
+                    <select name="cambio" id="cambio">
+                        <option value="Manual">Manual</option>
+                        <option value="Automática">Automática</option>
+                    </select>
+
+                    <label for="anio">Año:</label>
+                    <input type="number" name="anio" id="anio">
+
+                    <label for="precioMin">Precio Minimo (€):</label>
+                    <input type="number" name="precio" id="precio">
+
+
+                    <label for="precioMax">Precio Maximo (€):</label>
+                    <input type="number" name="precioMax" id="precioMax">
+
+                    <button type="submit">Usar Filtro</button>
+
+                </form>
+
+            </section>
+
+            <section class="resultados">
+
+                <h3>Resultados de la búsqueda</h3>
+
+                <p>Aquí se mostrarán los vehículos que coincidan con tus criterios de búsqueda.</p>
+
+            </section>
+
+        </main>
+
+         <footer>
+
+            <p>© 2024 Concesionario Garcia. Todos los derechos reservados.</p>
+
+            <nav>
+                <a href="contacto.html">Contacto</a>
+                <a href ="marcas.html">Marcas con las que trabajamos</a>
+
+            </nav>
+
+        </footer> 
+        
+    </body>
+</html>
