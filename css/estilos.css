@@ -1,0 +1,85 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c9c3c3
+    
+}
+
+header a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #c9c3c3
+}
+
+.inicio{
+    display:block;
+    align-items:center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+}
+
+.inicio a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+    background-color: #c9c3c3;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.inicio h1{
+    font-size: 3rem;
+    background-color: #c9c3c3;
+    margin: 3rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.buscador{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador h2{
+    font-size: 2rem;
+    background-color: #c9c3c3;
+    margin: 3rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.buscador form{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
