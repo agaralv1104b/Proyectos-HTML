@@ -10,17 +10,17 @@
 
     <body>
 
-        <header>
+        <header class="menu">
 
             <h1>Concesionario Garcia</h1>
 
-            <nav class="menu">
+            <nav class="menu__links">
 
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./vehiculos.html">Vehiculos</a></li>
-                    <li><a href="./favorito.html">Favoritos</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
+                <ul class = "menu__link--estilo">
+                    <li><a href="./index.html" class = "menu__link--decoracion">Inicio</a></li>
+                    <li><a href="./vehiculos.html" class = "menu__link--decoracion">Vehiculos</a></li>
+                    <li><a href="./favorito.html" class = "menu__link--decoracion">Favoritos</a></li>
+                    <li><a href="./contacto.html" class = "menu__link--decoracion">Contacto</a></li>
                 </ul>
 
             </nav>
@@ -33,14 +33,14 @@
 
             <section class="inicio">
 
-                <h1>Encuentra tu próximo coche</h1>
+                <h1 class="inicio__titulo">Encuentra tu próximo coche</h1>
 
                 <p>
                     Descubre nuestra selección de vehículos
                     y encuentra el coche perfecto para ti.
                 </p>
 
-                <a href="vehiculos.html">Ver Vehículos</a>
+                <a href="vehiculos.html" class="inicio__link">Ver Vehículos</a>
 
             </section>
 
@@ -48,40 +48,48 @@
 
             <section class="buscador">
 
-                <h2>Busca tu vehículo</h2>
-               <form action="vehiculos.html" method="get">
-                    <label for="marca">Marca:</label>
-                    <select id="marca" name="marca">
+                <h2 class="buscador__subtitulo">Busca tu vehículo</h2>
 
-                        <option value=" ">Todas las marcas</option>
-                        <option value="Toyota">Toyota</option>
-                        <option value="Honda">Honda</option>
-                        <option value="Ford">Ford</option>
-                        <option value="Chevrolet">Chevrolet</option>
-                        <option value="Nissan">Nissan</option>
-                        <option value="BMW">BMW</option>
-                        <option value="Mercedes-Benz">Mercedes-Benz</option>
-                        <option value="Audi">Audi</option>
-                        <option value="Volkswagen">Volkswagen</option>
-                        <option value="Hyundai">Hyundai</option>
-                        <option value="Kia">Kia</option>
-                        <option value="Seat">Seat</option>
-                        <option value="Renault">Renault</option>
-                        <option value="opel">Opel</option>
-                    </select>
+                    <form action="vehiculos.html" method="get" class="buscador__contenido">
+                        <article class="buscador__vehiculo">
+                            <label for="marca">Marca:</label>
+                            <select id="marca" name="marca">
 
-                    <label for="combustible">Combustible:</label>
-                    <select id="combustible" name="combustible">
-                        
-                        <option value=" ">Todos los combustibles</option>
-                        <option value="Gasolina">Gasolina</option>
-                        <option value="Diesel">Diesel</option>
-                        <option value="Híbrido">Híbrido</option>
-                        <option value="Eléctrico">Eléctrico</option>
+                                <option value=" ">Todas las marcas</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                <option value="Audi">Audi</option>
+                                <option value="Volkswagen">Volkswagen</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Kia">Kia</option>
+                                <option value="Seat">Seat</option>
+                                <option value="Renault">Renault</option>
+                                <option value="opel">Opel</option>
+                            </select>
+                        </article>
 
-                    </select>
+                        <form action="vehiculos.html" method="get" class="buscador__combustible">
+                            
+                            <article class="buscador__combustible">
+                                <label for="combustible">Combustible:</label>
+                                <select id="combustible" name="combustible">
+                                
+                                    <option value=" ">Todos los combustibles</option>
+                                    <option value="Gasolina">Gasolina</option>
+                                    <option value="Diesel">Diesel</option>
+                                    <option value="Híbrido">Híbrido</option>
+                                    <option value="Eléctrico">Eléctrico</option>
+                                </select>
+                            </article>
 
-                    <button type="submit">Buscar coches</button>
+                    <button type="submit" class="buscador__boton">Buscar coches</button>
+
+                </article>
 
                </form> 
 
