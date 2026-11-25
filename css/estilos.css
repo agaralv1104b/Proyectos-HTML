@@ -73,9 +73,12 @@
 
 .buscador{
     display: flex;
+    background-color: #f3f2f2;
+    border-radius: 10px;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
+    margin-bottom: 8rem;
 }
 
 .buscador__subtitulo{
@@ -145,10 +148,13 @@
 
 .destacados{
     display: grid;
+    background-color: #f3f2f2;
+    border-radius: 10px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "titulo imagen" "descripcion imagen";
     gap: 1rem;
     align-items: center;
+    margin-bottom: 4rem;
 }
 
 
@@ -164,7 +170,7 @@
     margin-left: 110px;
     border-radius: 10px;
     box-sizing: border-box;
-    margin-top: 95px;
+    margin-top: 70px;
 }
 
 .destacado__descripcion{
@@ -178,7 +184,6 @@
 
 .destacado__imagen{
     grid-area: imagen;
-    margin-top: 95px;
     width: 80%;
     height: 310px;
     border-radius: 15px;
@@ -188,10 +193,13 @@
 
 .ofertas{
     display: grid;
+    background-color: #f3f2f2;
+    border-radius: 10px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "enlace titulo" "enlace descripcion";
     align-items: center;
-    margin-top: 10rem;    
+    margin-top: 10rem;  
+    margin-bottom: 4rem;  
 
 }
 
@@ -206,6 +214,7 @@
     width: fit-content;
     margin-left: auto;
     padding: 0.5rem 1rem;
+    margin-right: 65px;
 
 }
 
@@ -215,6 +224,7 @@
     text-align: right;
     width: 300px;
     margin-left: auto;
+    margin-right: 65px;
 
 }
 
@@ -237,6 +247,8 @@
 .novedades{
     display: block;
     margin-top: 9rem;
+    background-color: #f3f2f2;
+    border-radius: 10px;
 }
 
 .novedades__titulo{
