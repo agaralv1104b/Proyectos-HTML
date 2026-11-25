@@ -323,3 +323,71 @@
     margin-right: 65px;
 
 }
+
+
+.filtro{
+    display: block;
+    background-color: #f3f2f2;
+    border-radius: 10px;
+    border: 1px solid #cccc;
+}
+
+
+.filtro__marca {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.filtro__modelo{
+    display: flex;
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 2rem;
+
+}
+
+.filtro__combustible{
+    display: flex;
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.filtro__transmision{
+    display: flex;
+    width: 180px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
