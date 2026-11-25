@@ -78,7 +78,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
 }
 
 .buscador__subtitulo{
@@ -291,4 +291,35 @@
 .footer__enlace{
     text-decoration: none;
     color: black;
+}
+
+/*pagina vehiculos*/
+
+.titulo__vehiculo{
+    display: block;
+    text-align: center;
+    background-color: #c9c3c3;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    
+}
+
+.titulo__descripcion{
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.titulo__buscador{
+   grid-area: titulo;
+    display: flex;
+    justify-content: left;
+    background-color: #c9c3c3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    margin-right: 65px;
+
 }
