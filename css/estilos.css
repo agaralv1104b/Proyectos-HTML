@@ -266,3 +266,17 @@
     width: fit-content;
     margin-top: 5rem;
 }
+
+.footer{
+    display: block;
+    margin-top: 12rem;
+    font-size: 0.9rem;
+    background-color: #c9c3c3;
+    padding: 0.6rem;
+}
+
+
+.footer__enlace{
+    text-decoration: none;
+    color: black;
+}
