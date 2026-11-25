@@ -187,7 +187,7 @@
 
 
 .ofertas{
-    display: inline-block;
+    display: block;
     margin-top: 10rem;    
 
 }
@@ -195,13 +195,20 @@
 
 .ofertas__titulo{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     background-color: #c9c3c3;
     border-radius: 10px;
     box-sizing: border-box;
     width: fit-content;
     margin-left: auto;
-    padding: 0rem 0.5rem;
-    border-radius: 20px;
+    padding: 0.5rem 1rem;
+
+}
+
+.ofertas__descripcion{
+    display: block;
+    text-align: right;
+    width: 300px;
+    margin-left: auto;
 
 }
