@@ -5,26 +5,43 @@
 
 
 
-header{
+.menu{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-color: #c9c3c3
     
 }
 
+.menu__links{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+}
 
-.menu ul{
+.menu__link--decoracion{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+
+}
+
+
+.menu__link--estilo{
+
     display: flex;
     gap: 20px;
     list-style: none;
 
 }
 
-nav a{
-    text-decoration: none;
-    background-color: #c9c3c3
-}
+
+
+
 
 .inicio{
     display:block;
@@ -35,10 +52,93 @@ nav a{
 
 }
 
-.inicio h1{
+.inicio__link{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 1rem;
+    background-color: #c9c3c3;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.inicio__titulo{
     font-size: 3rem;
     background-color: #c9c3c3;
     margin: 3rem;
     border-radius: 10px;
     margin-bottom: 1rem;
+}
+
+
+.buscador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.buscador__subtitulo{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #c9c3c3;
+    margin: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.buscador__contenido{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 1rem;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.buscador__combustible{
+    background-color: #c9c3c3;
+    padding: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+.buscador__vehiculo{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9c3c3;
+    padding: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    min-width: 200px;
+}
+
+.buscador__boton{
+    width: 20%;
+    grid-column-end: 3;
+    grid-column-start: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #c9c3c3;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    justify-self: center;
 }
