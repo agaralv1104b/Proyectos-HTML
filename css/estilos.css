@@ -187,13 +187,17 @@
 
 
 .ofertas{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "enlace titulo" "enlace descripcion";
+    align-items: center;
     margin-top: 10rem;    
 
 }
 
 
 .ofertas__titulo{
+    grid-area: titulo;
     display: flex;
     justify-content: left;
     background-color: #c9c3c3;
@@ -206,9 +210,26 @@
 }
 
 .ofertas__descripcion{
+    grid-area: descripcion;
     display: block;
     text-align: right;
     width: 300px;
     margin-left: auto;
+
+}
+
+
+.ofertas__enlace{
+    grid-area: enlace;
+    display: block;
+    justify-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    background-color: #c9c3c3;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+   
 
 }
